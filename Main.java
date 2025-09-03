@@ -1,7 +1,7 @@
 abstract class Shop{
   private String name;
   private String location;
-  public Shop(String name, String location{
+  public Shop(String name, String location){
     this.name=name;
     this.location=location;
   }
@@ -44,8 +44,8 @@ class TeaShop extends Shop{
   }
 }
 
-public class Main{
-  public static void main(String args[]){
+public class Main {
+  public static void main (String args[]) {
     Tea[] branch1={ new Tea("Masala Tea",20), new Tea("Allam Tea",25) };
     Tea[] branch2={ new Tea("Green Tea",40), new Tea("Lemon Tea",35) };
     TeaShop b1=new TeaShop("Chai Wala","Balapur",branch1);
