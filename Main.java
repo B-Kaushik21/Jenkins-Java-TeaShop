@@ -1,7 +1,7 @@
 abstract class Shop{
   private String name;
   private String location;
-  public Shop(String name, String location0{
+  public Shop(String name, String location{
     this.name=name;
     this.location=location;
   }
